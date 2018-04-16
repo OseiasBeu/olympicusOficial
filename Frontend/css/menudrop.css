@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#corpo {
+    height: 900px;
+}
+
+
+/* //////////////////////drop////////////////////// */
+
+.dropbtn {
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    border: none;
+    width: 50%;
+    height: 50%;
+    background-image: url('../img/btn.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-homem a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-homem a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #e0e0e0;
+}
+
+
+/* NAV */
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li {
+    position: relative;
+    display: block;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    margin: 0 1px;
+    display: block;
+}
+
+#nav li ul {
+    display: none;
+}
+
+#nav ul li a:hover {
+    background: #066;
+    color: #FFF;
+    transition-duration: 0.1s;
+}
+
+#nav li:hover ul {
+    display: block;
+    position: relative;
+    transition-duration: 0.1s;
+}
+
+#nav li:hover li {
+    font-size: 12px;
+    transition-duration: 0.1s;
+}
+
+#nav li:hover a {
+    background: #333;
+    color: #FFF;
+    transition-duration: 0.1s;
+}
+
+#nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul #sub {
+    position: relative;
+    display: block;
+}
+
+#nav ul #sub a {
+    text-decoration: none;
+    margin: 0 1px;
+    display: block;
+}
+
+#nav #sub ul {
+    display: none;
+}
+
+#nav ul #sub a:hover {
+    background: #066;
+    color: #FFF;
+    transition-duration: 0.1s;
+}
+
+#nav #sub:hover ul {
+    display: block;
+    position: relative;
+    transition-duration: 0.1s;
+}
+
+#nav #sub:hover #sub {
+    font-size: 12px;
+    transition-duration: 0.1s;
+}
+
+#nav #sub:hover a {
+    background: #333;
+    color: #FFF;
+    transition-duration: 0.1s;
+}

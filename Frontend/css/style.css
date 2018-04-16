@@ -1,0 +1,92 @@
+nav {
+    height: 60px;
+    background-color: #e0e0e0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+}
+
+#barraPesquisa {
+    width: 65%;
+    height: 50%;
+    border: 2px solid #ccc;
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    padding: 20px 25px 16px 40px;
+    border-radius: 50px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.logotipo {
+    position: relative;
+    top: 10px;
+    margin-left: 40px;
+    margin-right: 50px;
+    width: 90px;
+    height: 100%;
+}
+
+
+/* //////////////////////drop////////////////////// */
+
+.dropbtn {
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    border: none;
+    width: 50%;
+    height: 50%;
+    background-image: url('../img/btn.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 300px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown-homem a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-homem a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #e0e0e0;
+}
+
+
+/* Responsividade */
